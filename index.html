@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div>
-      <h1>Yet another javascript activity</h1>
-    </div>
-    <div>
-      <div></div>
-      <label for="numbers"
-        >Enter any numbers you want and separate them with a comma.</label
-      >
-      <form action="" id="input"><input type="text" /></form>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Yet another Activity</title>
+</head>
+<body>
+  <div><h1>yet another Javascript website <h6>that averages out an array of numbers</h6></h1></div>
+  <div>
+    <label for="numbers"> Please input any number on the form and separate said numbers by using a comma</label>
+    <form action="" id="input">
+      <input type="text"">
+  </form>
+  </div>
+  <button type="button" onclick="getNumbers()" class="button_ave">click to get average</button>
+  <p id="result"></p>
 
-      <button type="button" onclick="getNumbers()" class="button_ave">Average</button>
-
-
-      <p id="result"></p>
-    </div>
-  </body>
+</body>
 </html>
