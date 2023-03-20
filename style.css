@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.button_ave {
+  padding: 10px;
+  margin: 10px;
+}
+
+#input {
+  margin: 10px;
+}
